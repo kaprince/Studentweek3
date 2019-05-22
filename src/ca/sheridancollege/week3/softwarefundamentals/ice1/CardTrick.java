@@ -28,7 +28,7 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
-            Card luckycard = new Card(3, Hearts);
+            Card luckycard = new Card(4, Hearts);
             
             Random rand = new Random();
             int value = rand.nextInt((13 - 1) + 1) + 1;
