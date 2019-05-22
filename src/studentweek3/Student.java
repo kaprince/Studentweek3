@@ -12,6 +12,8 @@ package studentweek3;
 public class Student {
     private int ID;
     private String firstName;
+    private int Max;
+    private boolean PartTime;
 
     /**
      * @return the ID
@@ -39,6 +41,34 @@ public class Student {
      */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    /**
+     * @return the Max
+     */
+    public int getMax() {
+        return Max;
+    }
+
+    /**
+     * @param Max the Max to set
+     */
+    public void setMax(int Max) {
+        this.Max = Max;
+    }
+
+    /**
+     * @return the PartTime
+     */
+    public boolean isPartTime() {
+        return PartTime;
+    }
+
+    /**
+     * @param PartTime the PartTime to set
+     */
+    public void setPartTime(boolean PartTime) {
+        this.PartTime = PartTime;
     }
     
 }
